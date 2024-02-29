@@ -17,7 +17,7 @@ function showCart(){
 }
 
 function hideCart(){
-    setUserProgress(' ');
+    setUserProgress('');
 }
 
 function showCheckout(){
