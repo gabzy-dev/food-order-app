@@ -44,20 +44,6 @@ export default function Checkout(){
         customer: customerData
     }
 }))
-//    fetch( "http://localhost:3000/orders",{
-//     method: "POST",
-//     headers: {
-//         "content-type" : "application/json"
-//     },
-//     body: JSON.stringify({
-//         order: {
-//             items: cartCtx.items,
-//             customer: customerData
-//         }
-//     })
-
-//    })
-
 
   }
 
