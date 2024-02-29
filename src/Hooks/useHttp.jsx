@@ -14,13 +14,13 @@ return resData;
 }
 
 
-export default function useHttp(url,config,initialData){
+export default function useHttp(url,config,emptyData){
 const[error,setError] = useState()
 const[loading,setLoading] = useState(false)
-const [data,setData] = useState(initialData);
+const [data,setData] = useState(emptyData);
 
 function clearData(){
-    setData(initialData);
+    setData(emptyData);
 }
 
  const sendRequest = useCallback(async function sendRequest (data){
