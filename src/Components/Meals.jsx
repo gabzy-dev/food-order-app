@@ -7,7 +7,7 @@ const requestConfig = {};
 const Meals = () => {
   
 
-const {data:loadedMeals,loading,error} = useHttp("http://localhost:3000/meals",requestConfig,[]);
+const {data:loadedMeals,loading,error} = useHttp("https://food-order-app-2qac.onrender.com/meals",requestConfig,[]);
  
 if(loading){
   return <p className='center'>fetching meals...</p>
